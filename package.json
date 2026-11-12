@@ -1,5 +1,5 @@
 {
-  "name": "dsh-session-tabs",
+  "name": "@lihengxi20/dsh-tabs",
   "version": "0.1.0",
   "description": "Session tabs in the DSH conversation header: switch, close, rename and persist open sessions, with workspace/title labels and live status.",
   "license": "MIT",
@@ -41,6 +41,10 @@
     "url": "https://github.com/lihengxi20/dsh-session-tabs/issues"
   },
   "author": "lihengxi20",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"

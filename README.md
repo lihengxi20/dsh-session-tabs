@@ -1,8 +1,10 @@
-# dsh-session-tabs
+# dsh-tabs
 
 DSH（DeepSeek Harness）Web GUI 的**顶部会话标签页**插件：在会话头部下方加一行会话标签，像浏览器标签一样管理打开过的会话。
 
-> **English summary** — A session-tab bar for the DSH web GUI: open sessions as tabs, switch / close / rename them, with `workspace / title` labels and a persisted tab list. Plugin-only: no DSH core changes.
+> GitHub 仓库：`lihengxi20/dsh-session-tabs` · npm 包名：`@lihengxi20/dsh-tabs`（同一份代码）。
+
+> **English summary** — A session-tab bar for the DSH web GUI: open sessions as tabs, switch / close / rename them, with `workspace / title` labels and a persisted tab list. Published as `@lihengxi20/dsh-tabs`; plugin-only, no DSH core changes.
 
 ## 截图
 
@@ -31,9 +33,13 @@ DSH（DeepSeek Harness）Web GUI 的**顶部会话标签页**插件：在会话�
 
 ## 安装
 
-通过 DSH 自带插件管理器添加（推荐）：
+通过 DSH 自带插件管理器添加：
 
 ```sh
+# npm（发布后）
+dsh plugin --profile desktop add @lihengxi20/dsh-tabs
+
+# 或直接从 GitHub 仓库安装（始终跟最新代码）
 dsh plugin --profile desktop add github:lihengxi20/dsh-session-tabs
 ```
 
