@@ -1,0 +1,8 @@
+# dsh-session-tabs profile patch layer.
+#
+# One loader entry is all this bundle needs: the host half (lib/index.js) is an
+# inert plugin, and the browser half is picked up by dsh-client-modules through
+# the package's `dsh.client` declaration, exactly like the shipped ui-* rows.
+- insert:
+    - id: session-tabs
+      name: 'dsh-session-tabs'
