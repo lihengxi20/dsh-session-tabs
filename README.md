@@ -36,7 +36,7 @@ DSH（DeepSeek Harness）Web GUI 的**顶部会话标签页**插件：在会话�
 通过 DSH 自带插件管理器添加：
 
 ```sh
-# npm（发布后）
+# npm
 dsh plugin --profile desktop add @lihengxi20/dsh-tabs
 
 # 或直接从 GitHub 仓库安装（始终跟最新代码）

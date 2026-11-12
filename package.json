@@ -1,66 +1,66 @@
 {
-  "name": "@lihengxi20/dsh-tabs",
-  "version": "0.1.0",
-  "description": "Session tabs in the DSH conversation header: switch, close, rename and persist open sessions, with workspace/title labels and live status.",
-  "license": "MIT",
-  "type": "module",
-  "main": "lib/index.js",
-  "exports": {
-    ".": "./lib/index.js",
-    "./client": "./lib/client.js",
-    "./package.json": "./package.json"
-  },
-  "files": [
-    "lib/index.js",
-    "lib/client.js",
-    "cordis.patch.yml",
-    "assets",
-    "screenshots.json",
-    "README.md",
-    "LICENSE"
-  ],
-  "engines": {
-    "node": ">=18"
-  },
-  "keywords": [
-    "deepseek-harness",
-    "dsh",
-    "dsh-plugin",
-    "dsh-web",
-    "session",
-    "tabs",
-    "会话标签",
-    "顶部标签页"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lihengxi20/dsh-session-tabs.git"
-  },
-  "homepage": "https://github.com/lihengxi20/dsh-session-tabs#readme",
-  "bugs": {
-    "url": "https://github.com/lihengxi20/dsh-session-tabs/issues"
-  },
-  "author": "lihengxi20",
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  },
-  "dsh": {
-    "bundle": {
-      "patch": "./cordis.patch.yml"
-    },
-    "client": {
-      "inject": [
-        "@deepseek-ai/dsh-client-ui-session",
-        "@deepseek-ai/dsh-client-ui-conversation",
-        "@deepseek-ai/dsh-client-locale"
-      ],
-      "platform": "web"
-    },
-    "compatibility": {
-      "dshReleases": {
-        "0.2.2-rc.1": "compatible"
-      }
-    }
-  }
+    "name":  "@lihengxi20/dsh-tabs",
+    "version":  "0.1.1",
+    "description":  "Session tabs in the DSH conversation header: switch, close, rename and persist open sessions, with workspace/title labels and live status.",
+    "license":  "MIT",
+    "type":  "module",
+    "main":  "lib/index.js",
+    "exports":  {
+                    ".":  "./lib/index.js",
+                    "./client":  "./lib/client.js",
+                    "./package.json":  "./package.json"
+                },
+    "files":  [
+                  "lib/index.js",
+                  "lib/client.js",
+                  "cordis.patch.yml",
+                  "assets",
+                  "screenshots.json",
+                  "README.md",
+                  "LICENSE"
+              ],
+    "engines":  {
+                    "node":  "\u003e=18"
+                },
+    "keywords":  [
+                     "deepseek-harness",
+                     "dsh",
+                     "dsh-plugin",
+                     "dsh-web",
+                     "session",
+                     "tabs",
+                     "会话标签",
+                     "顶部标签页"
+                 ],
+    "repository":  {
+                       "type":  "git",
+                       "url":  "git+https://github.com/lihengxi20/dsh-session-tabs.git"
+                   },
+    "homepage":  "https://github.com/lihengxi20/dsh-session-tabs#readme",
+    "bugs":  {
+                 "url":  "https://github.com/lihengxi20/dsh-session-tabs/issues"
+             },
+    "author":  "lihengxi20",
+    "publishConfig":  {
+                          "access":  "public",
+                          "registry":  "https://registry.npmjs.org/"
+                      },
+    "dsh":  {
+                "bundle":  {
+                               "patch":  "./cordis.patch.yml"
+                           },
+                "client":  {
+                               "inject":  [
+                                              "@deepseek-ai/dsh-client-ui-session",
+                                              "@deepseek-ai/dsh-client-ui-conversation",
+                                              "@deepseek-ai/dsh-client-locale"
+                                          ],
+                               "platform":  "web"
+                           },
+                "compatibility":  {
+                                      "dshReleases":  {
+                                                          "0.2.2-rc.1":  "compatible"
+                                                      }
+                                  }
+            }
 }
