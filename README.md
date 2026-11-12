@@ -4,6 +4,14 @@ DSH（DeepSeek Harness）Web GUI 的**顶部会话标签页**插件：在会话�
 
 > **English summary** — A session-tab bar for the DSH web GUI: open sessions as tabs, switch / close / rename them, with `workspace / title` labels and a persisted tab list. Plugin-only: no DSH core changes.
 
+## 截图
+
+![会话标签：工作区 / 会话标题与状态圆点](assets/screenshot-tabs.png)
+
+![标签右键菜单：重命名 / 关闭 / 关闭其他 / 全部关闭](assets/screenshot-menu.png)
+
+![重命名会话弹层](assets/screenshot-rename.png)
+
 ## 功能
 
 - **单/多会话**：只有一个会话时也显示一个标签；多会话时按打开顺序排列，从侧边栏、搜索或新建会话打开时自动加入。

@@ -14,6 +14,8 @@
     "lib/index.js",
     "lib/client.js",
     "cordis.patch.yml",
+    "assets",
+    "screenshots.json",
     "README.md",
     "LICENSE"
   ],
