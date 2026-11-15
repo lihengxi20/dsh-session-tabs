@@ -1,6 +1,6 @@
 {
   "name": "@lihengxi20/dsh-tabs",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Session tabs in the DSH conversation header: switch, close, rename and persist open sessions, with workspace/title labels and live status.",
   "license": "MIT",
   "type": "module",
